@@ -25,13 +25,15 @@ body {
     color: rgb(135,168,219);
 }
 
-#cloud {
+#cloud, #free, #style {
     display: inline-block;
+}
+
+#cloud, #style {
     font-weight: 300;
 }
 
-#freestyle {
-    display: inline-block;
+#free {
     font-weight: 100;
 }
 
