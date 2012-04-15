@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+body {
+    background: url(clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+#content {
+    height: 38em;
+}
+
+.maintext {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    font-size: 7em;
+    padding-right: 0.6em;
+    padding-bottom: 2px;
+
+    color: rgb(135,168,219);
+}
+
+#cloud {
+    display: inline-block;
+    font-weight: 300;
+}
+
+#freestyle {
+    display: inline-block;
+    font-weight: 100;
+}
+
+#infobox {
+    background-color: rgba(255,255,255,0.4);
+    
+    float: right;
+    margin-top: 9em;
+    margin-right: 4em;
+
+    font-weight: 300;
+    width: 15em;
+    font-size: 1.2em;
+
+    text-align: right;
+    line-height: 1.5;
+
+    padding: 0.5em 1em 0.5em 0;
+}
+
+#infoboxlinks {
+    padding-top: 1em;
+}
+
+#infoboxlinks a {
+    color: black;
+}
