@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 html {
     height: 100%;
@@ -37,8 +37,12 @@ body {
     font-weight: 100;
 }
 
+#joinus {
+    font-weight: 400;
+}
+
 #infobox {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.5);
     
     float: right;
     margin-top: 9em;
